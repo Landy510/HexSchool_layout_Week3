@@ -123,10 +123,10 @@ const Index = () => {
             </div>
             <div className={styles['card']}>
               <picture>
-                <source media="(min-width:992px)" srcSet="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1.png?raw=true" />
-                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1-sm.png?raw=true" alt="" />
+                <source media="(min-width:992px)" srcSet="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true" />
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2-sm.png?raw=true" alt="" />
               </picture>
-              <p className='font-family-roboto'>Double A+</p>
+              <p className='font-family-roboto'>Youth</p>
             </div>
           </div>
         </div>
