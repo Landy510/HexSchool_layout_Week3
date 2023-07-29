@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: var(--font-family-notosans), sans-serif, PingFang, Microsoft JhengHei;
+  line-height: var(--line-height);
+}
+
+.font-family-roboto {
+  font-family: var(--font-family-roboto);
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-start {
+  justify-content:flex-start ;
+}
+
+.justify-center {
+  justify-content:center ;
+}
+
+.justify-end {
+  justify-content:flex-end ;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+.items-end {
+  align-items: flex-end;
+}
