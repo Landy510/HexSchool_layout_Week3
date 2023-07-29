@@ -35,7 +35,235 @@
   }
 }
 
+.character_section {
+  background-color: var(--color-accent);
+  text-align: center;
+  padding-top: 40px;
+
+  .title {
+    font-size: 24px;
+    color: var(--color-primary-accent);
+    font-weight: bold;
+    margin-bottom: 32px;
+  }
+
+  .content_wrapper {
+    padding: 0 15px;
+  }
+
+  .card {
+    text-align: center;
+
+    .img {
+      margin-bottom: 8px;
+
+      img {
+        margin-bottom: 24px;
+      }
+
+      .slogan {
+        color: var(--color-primary-accent);
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .card:not(:last-of-type) {
+    margin-bottom: 32px;
+  }
+}
+
+.classic_section {
+  padding-top: 40px;
+  text-align: center;
+
+  .title {
+    font-size: 24px;
+    color: var(--color-primary-accent);
+    font-weight: bold;
+    margin-bottom: 32px;
+  }
+
+  .classic_content_wrapper {
+    margin: 0;
+    text-align: center;
+
+    .card {
+
+      img {
+        max-width: auto;
+      }
+  
+      p {
+        font-size: 48px;
+        font-weight: 900;
+        font-style: italic;
+        color: var(--color-primary);
+      }
+    }
+  }
+}
+
+.designed_section {
+  margin-top: 60px;
+  padding: 40px 0;
+  text-align: center;
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true');
+  background-position: center;
+  background-size: cover;
+
+  .title {
+    font-size: 24px;
+    color: var(--color-white);
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  .designed_content_wrapper {
+    padding: 0 15px;
+    margin: 0;
+    text-align: center;
+
+    .card {
+      display: inline-block;
+
+      p {
+        font-size: 48px;
+        font-style: italic;
+        color: var(--color-primary);
+        font-weight: 900;
+        background-color: var(--color-white);
+      }
+    }
+
+    .card + .card {
+      margin-top: 24px;
+    }
+  }
+
+  
+}
+
+.customer_section {
+  margin-top: 80px;
+
+  .title {
+    font-size: 24px;
+    color: var(--color-primary-accent);
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .customer_content_wrapper {
+
+    margin: 0 -12px;
+
+    .card {
+      margin-bottom: 16px;
+      padding: 0 12px;
+
+      .card_inner {
+        box-shadow: 0px 2px 6px #00000029;
+        border-radius: 4px;
+      }
+
+      .container_card_text {
+        min-height: 205px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .name, .comment {
+          font-weight: 500;
+        }
+
+        .date {
+          margin-top: auto;
+          font-size: 14px;
+          color: #707070;
+        }
+      }
+    }
+  }
+}
+
+.contact_section {
+  background-color: var(--color-accent);
+  padding-top: 80px;
+
+  .title {
+    font-size: 24px;
+    color: var(--color-primary-accent);
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .contact_content_wrapper {
+    margin: 0 auto;
+  }
+
+  form {
+    margin-top: 24px;
+
+    input[type=text], 
+    input[type=tel], 
+    input[type=email], 
+    textarea {
+      width: 100%;
+      padding: 6px 12px;
+      background-color: transparent;
+    }
+
+    input:focus, textarea:focus {
+      background-color: #fff;
+    }
+
+    & > div {
+      margin-bottom: 16px;
+
+      p:first-child {
+        margin-bottom: 8px;
+      }
+    }
+
+    & > div:last-of-type {
+      display: flex;
+      align-items: baseline;
+
+      input {
+        margin-right: 4px;
+      }
+
+      label {
+        font-weight: 500;
+      }
+    }
+
+    input[type=submit] {
+      background-color: var(--color-primary);
+      color: var(--color-white);
+      display: inline-block;
+      width: 100%;
+      padding: 16px 0;
+    }
+  }
+}
+
+
 @media(min-width: 768px) {
+
   .hero_image {
     height: 767px;
 
@@ -51,10 +279,145 @@
       }
     }
   } 
+
+  .character_section {
+
+    .title {
+      font-size: 72px;
+    }
+
+    .content_wrapper {
+      padding: 0 32px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      padding: 0 12px;
+      width: 50%;
+      flex-grow: 1;
+    }
+  }
+
+  .classic_section {
+
+    .classic_content_wrapper {
+
+      .card {
+        
+        img {
+          max-width: 336px;
+        }
+      }
+    }
+
+    .title {
+      font-size: 48px;
+    }
+  }
+
+  .designed_section {
+
+    .title {
+      font-size: 48px;
+    }
+  }
+
+  .designed_section {
+
+    .designed_content_wrapper {
+      padding: 0 32px;
+    }
+  }
+
+  .customer_section {
+
+    .title {
+      font-size: 48px;
+    }
+
+    .customer_content_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+
+      .card {
+        width: 50%;
+      }
+    }
+  }
+
+  .contact_section {
+
+    .title {
+      font-size: 48px;
+    }
+
+    .contact_content_wrapper {
+      max-width: 576px;
+    }
+  }
+  
 }
 
 @media(min-width: 992px) {
   .hero_image {
     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true');   
+  }
+
+  .character_section {
+
+    .card {
+      width: 25%;
+      flex-grow: 1;
+    }
+  }
+
+  .classic_section {
+
+    .classic_content_wrapper {
+      display: flex;
+      margin: 0 -12px;
+
+      .card {
+        width: 33.333%;
+        padding: 0 12px;
+
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .designed_section {
+
+    .designed_content_wrapper {
+      display: flex;
+
+      .card {
+        width: 50%;
+      }
+
+      .card + .card {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .customer_section {
+
+    .customer_content_wrapper {
+
+      .card {
+        width: 25%;
+      }
+    }
+  }
+
+  .contact_section {
+
+    .contact_content_wrapper {
+      max-width: 636px;
+    }
   }
 }

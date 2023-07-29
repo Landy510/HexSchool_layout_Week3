@@ -17,6 +17,18 @@ body {
   margin: 0 auto;
 }
 
+.modified_container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media(min-width: 768px) {
+  .modified_container {
+    padding: 0 32px;
+  }
+}
+
 .flex {
   display: flex;
 }
