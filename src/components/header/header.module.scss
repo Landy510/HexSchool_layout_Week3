@@ -24,7 +24,6 @@
         display: block;
         color: #fff;
         padding: 12px 32px;
-        white-space: nowrap;
         font-size: 20px;
         height: 100%;
       }
@@ -41,9 +40,10 @@
     }
 
     .list {
-      
+      flex-wrap: nowrap;
+
       li {
-        width: 25%;
+        width: auto;
         border: none;
         display: flex;
         justify-content: center;

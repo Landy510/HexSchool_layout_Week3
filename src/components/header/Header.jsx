@@ -22,7 +22,7 @@ const Header = memo(function Header() {
         <ul className={styles['list']}>
           <li>
             <a href="">
-              系列鏡框
+            系列鏡框
             </a>
           </li>
           <li>
@@ -37,7 +37,7 @@ const Header = memo(function Header() {
           </li>
           <li>
             <a href="">
-              常見問題
+            常見問題
             </a>
           </li>
         </ul>
