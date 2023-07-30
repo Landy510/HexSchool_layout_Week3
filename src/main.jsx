@@ -5,7 +5,7 @@ import './assets/styles/all.scss'
 
 // --- route components ---
 import Index from './features/pages/index/Index.jsx'
-
+import SeriesGlasses from './features/pages/seriesGlasses/SeriesGlasses.jsx'
 // ---
 
 import {
@@ -21,6 +21,10 @@ const router = createHashRouter([
       {
         index: true,
         element: <Index />
+      },
+      {
+        path: 'seriesGlasses',
+        element: <SeriesGlasses />
       }
     ]
   }

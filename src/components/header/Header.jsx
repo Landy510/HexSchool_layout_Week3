@@ -1,4 +1,5 @@
 import { memo } from "react";
+import { Link } from "react-router-dom";
 import headerLogo from '/header_logo.png';
 import styles from './header.module.scss';
 
@@ -8,8 +9,8 @@ const Header = memo(function Header() {
       <div 
         className={['container', styles['header-container']].join(' ')}
       >
-        <a 
-          href="#"
+        <Link 
+          to={'/'}
           className={styles['logo-img']}
         >
           <img 
@@ -17,13 +18,13 @@ const Header = memo(function Header() {
             alt="" 
             width='80'
           />
-        </a>
+        </Link>
         
         <ul className={styles['list']}>
           <li>
-            <a href="">
-            系列鏡框
-            </a>
+            <Link to={'/seriesGlasses'}>
+              系列鏡框
+            </Link>
           </li>
           <li>
             <a href="">
