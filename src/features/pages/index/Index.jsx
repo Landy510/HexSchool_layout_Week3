@@ -85,7 +85,7 @@ const Index = () => {
       </section>
 
       <section className={styles['classic_section']}>
-        <div className="modified_container">
+        <div className="container">
           <h3 className={styles['title']}>
             經典系列鏡框
           </h3>
@@ -134,7 +134,7 @@ const Index = () => {
       </section>
 
       <section className={styles['customer_section']}>
-        <div className="modified_container">
+        <div className="container">
           <h3 className={styles['title']}>顧客推薦</h3>
           <div className={styles['customer_content_wrapper']}>
             <div className={styles['card']}>
@@ -202,7 +202,7 @@ const Index = () => {
       </section>
 
       <section className={styles['contact_section']}>
-        <div className="modified_container">
+        <div className="container">
         <div className={styles['contact_content_wrapper']}>
           <h3 className={styles['title']}>
             聯絡我們

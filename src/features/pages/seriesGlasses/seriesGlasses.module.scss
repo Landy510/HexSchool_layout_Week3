@@ -4,6 +4,7 @@
 
 .tabs {
   display: flex;
+  margin: 0 -12px;
 
   li {
     width: 33.3333%;
@@ -183,5 +184,11 @@
         width: 25%;
       }
     }
+  }
+}
+
+@media(min-width:1296px) {
+  .tabs {
+    margin: 0;
   }
 }

@@ -10,7 +10,8 @@
 
   .content {
     color: var(--color-primary-accent);
-    padding: 0 15px;
+    // padding: 0 15px;
+    // margin: 0 -12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,6 +86,8 @@
 .classic_section {
   padding-top: 40px;
   text-align: center;
+  // padding: 0 15px;
+  // margin: 0 -12px;
 
   .title {
     font-size: 24px;
@@ -129,8 +132,7 @@
   }
 
   .designed_content_wrapper {
-    padding: 0 15px;
-    margin: 0;
+    // padding: 0 15px;
     text-align: center;
 
     .card {
@@ -176,6 +178,10 @@
       .card_inner {
         box-shadow: 0px 2px 6px #00000029;
         border-radius: 4px;
+      }
+
+      img {
+        width: 100%;
       }
 
       .container_card_text {
@@ -269,7 +275,7 @@
     height: 767px;
 
     .content {
-      padding: 0 32px;
+      // padding: 0 32px;
 
       p {
         font-size: 36px;
@@ -327,7 +333,7 @@
   .designed_section {
 
     .designed_content_wrapper {
-      padding: 0 32px;
+      // padding: 0 32px;
     }
   }
 

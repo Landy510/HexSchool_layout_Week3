@@ -4,7 +4,7 @@ import styles from './footer.module.scss';
 const Footer = memo(function Footer() {
   return (
     <footer className={styles['footer']}>
-      <div className="modified_container">
+      <div className="container">
         <div className={styles['company_info_section']}>
         <div className={styles['interactions']}>
             <ul>

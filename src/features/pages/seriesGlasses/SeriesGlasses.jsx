@@ -4,18 +4,19 @@ import styles from './seriesGlasses.module.scss';
 const SeriesGlasses = memo(function SeriesGlasses() {
   return (
     <div className={styles['seriesGlasses_section']}>
-        <div className="container">
-          <ul className={
-            [
-              styles['tabs'],
-              'font-family-roboto'
-            ].join(' ')
-          }>
-            <li className={styles['active']}>OPTICAL</li>
-            <li>SUNGLASSES</li>
-            <li>FUNCTIONAL</li>
-          </ul>
-        </div>
+      <div className="container">
+        <ul className={
+          [
+            styles['tabs'],
+            'font-family-roboto'
+          ].join(' ')
+        }>
+          <li className={styles['active']}>OPTICAL</li>
+          <li>SUNGLASSES</li>
+          <li>FUNCTIONAL</li>
+        </ul>
+      </div>
+        
         <ul className={styles['product_header']}>
           <li>
             <picture>
@@ -30,7 +31,7 @@ const SeriesGlasses = memo(function SeriesGlasses() {
             </picture>
           </li>
         </ul>
-        <div className="modified_container">
+        <div className="container">
           <div className={styles['product_section']}>
             <h3 className={styles['title']}>
               <p className="font-family-roboto">Celluloid Combi</p>
