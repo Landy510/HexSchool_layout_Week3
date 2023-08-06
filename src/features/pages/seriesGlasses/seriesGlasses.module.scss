@@ -69,12 +69,19 @@
       display: flex;
       justify-content: space-between;
 
-      span {
-        font-size: 24px;
-        font-weight: bold;
-      }
+      // span {
+      //   font-size: 24px;
+      //   font-weight: bold;
+      // }
 
-      span + span {
+      font-size: 24px;
+      font-weight: bold;
+
+      // span + span {
+      //   color: var(--color-primary);
+      // }
+
+      span {
         color: var(--color-primary);
       }
     }

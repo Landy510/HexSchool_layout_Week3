@@ -11,9 +11,15 @@ const SeriesGlasses = memo(function SeriesGlasses() {
             'font-family-roboto'
           ].join(' ')
         }>
-          <li className={styles['active']}>OPTICAL</li>
-          <li>SUNGLASSES</li>
-          <li>FUNCTIONAL</li>
+          <li className={styles['active']}>
+            <a href="#">OPTICAL</a>
+          </li>
+          <li>
+            <a href="#">SUNGLASSES</a>
+          </li>
+          <li>
+            <a href="#">FUNCTIONAL</a>
+          </li>
         </ul>
       </div>
         
@@ -41,10 +47,11 @@ const SeriesGlasses = memo(function SeriesGlasses() {
               <li>
                 <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-1.png?raw=true" alt="" />
                 <div className={styles['container_card_content']}>
-                  <p className={styles['price_info']}>
-                    <span>BJ41600S</span>
+                  <div className={styles['price_info']}>
+                    {/* <span>BJ41600S</span> */}
+                    <h3>BJ41600S</h3>
                     <span>NTD3,490</span>
-                  </p>
+                  </div>
                   <div className={styles['palette']}>
                     <span></span>
                     <span></span>
@@ -54,10 +61,11 @@ const SeriesGlasses = memo(function SeriesGlasses() {
               <li>
                 <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-2.png?raw=true" alt="" />
                 <div className={styles['container_card_content']}>
-                  <p className={styles['price_info']}>
-                    <span>BJ41600S</span>
+                  <div className={styles['price_info']}>
+                    {/* <span>BJ41600S</span> */}
+                    <h3>BJ41600S</h3>
                     <span>NTD3,490</span>
-                  </p>
+                  </div>
                   <div className={styles['palette']}>
                     <span></span>
                     <span></span>
@@ -67,10 +75,11 @@ const SeriesGlasses = memo(function SeriesGlasses() {
               <li>
                 <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-3.png?raw=true" alt="" />
                 <div className={styles['container_card_content']}>
-                  <p className={styles['price_info']}>
-                    <span>BJ41600S</span>
+                  <div className={styles['price_info']}>
+                    {/* <span>BJ41600S</span> */}
+                    <h3>BJ41600S</h3>
                     <span>NTD3,490</span>
-                  </p>
+                  </div>
                   <div className={styles['palette']}>
                     <span></span>
                     <span></span>
@@ -80,10 +89,11 @@ const SeriesGlasses = memo(function SeriesGlasses() {
               <li>
                 <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-4.png?raw=true" alt="" />
                 <div className={styles['container_card_content']}>
-                  <p className={styles['price_info']}>
-                    <span>BJ41600S</span>
+                  <div className={styles['price_info']}>
+                    {/* <span>BJ41600S</span> */}
+                    <h3>BJ41600S</h3>
                     <span>NTD3,490</span>
-                  </p>
+                  </div>
                   <div className={styles['palette']}>
                     <span></span>
                     <span></span>
@@ -93,10 +103,11 @@ const SeriesGlasses = memo(function SeriesGlasses() {
               <li>
                 <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-5.png?raw=true" alt="" />
                 <div className={styles['container_card_content']}>
-                  <p className={styles['price_info']}>
-                    <span>BJ41600S</span>
+                  <div className={styles['price_info']}>
+                    {/* <span>BJ41600S</span> */}
+                    <h3>BJ41600S</h3>
                     <span>NTD3,490</span>
-                  </p>
+                  </div>
                   <div className={styles['palette']}>
                     <span></span>
                     <span></span>
