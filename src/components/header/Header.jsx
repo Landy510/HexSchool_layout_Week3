@@ -7,7 +7,6 @@ const Header = memo(function Header() {
   return (
     <header className={styles['header']}>
       <div 
-        // className={['container', styles['header-container']].join(' ')}
         className='container'
       >
         <div className={styles['header_content_wrapper']}>

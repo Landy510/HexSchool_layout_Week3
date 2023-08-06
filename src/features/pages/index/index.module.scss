@@ -106,7 +106,14 @@
         max-width: auto;
       }
   
-      p {
+      // p {
+      //   font-size: 48px;
+      //   font-weight: 900;
+      //   font-style: italic;
+      //   color: var(--color-primary);
+      // }
+
+      h3 {
         font-size: 48px;
         font-weight: 900;
         font-style: italic;
@@ -138,7 +145,15 @@
     .card {
       display: inline-block;
 
-      p {
+      // p {
+      //   font-size: 48px;
+      //   font-style: italic;
+      //   color: var(--color-primary);
+      //   font-weight: 900;
+      //   background-color: var(--color-white);
+      // }
+
+      h3 {
         font-size: 48px;
         font-style: italic;
         color: var(--color-primary);
@@ -224,6 +239,11 @@
   form {
     margin-top: 24px;
 
+    label {
+      margin-bottom: 8px;
+      display: inline-block;
+    }
+
     input[type=text], 
     input[type=tel], 
     input[type=email], 
@@ -240,9 +260,9 @@
     & > div {
       margin-bottom: 16px;
 
-      p:first-child {
-        margin-bottom: 8px;
-      }
+      // p:first-child {
+      //   margin-bottom: 8px;
+      // }
     }
 
     & > div:last-of-type {

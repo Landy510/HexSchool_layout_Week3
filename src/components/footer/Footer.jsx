@@ -55,7 +55,6 @@ const Footer = memo(function Footer() {
           </div>
           
         </div> 
-        <div className={styles['divider']}></div>
         <div className={styles['protocol_section']}>
           <p>Copyright © 2020 Glasses.All rights reserved.</p>
           <div>
